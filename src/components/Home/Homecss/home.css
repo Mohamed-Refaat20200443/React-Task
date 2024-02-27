@@ -1,0 +1,28 @@
+.home{
+
+  background-color: #1abc9c; /* Dark teal background */
+  height: 100vh;
+
+
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+
+  .divider::before,
+  .divider::after {
+    content: '';
+    width: 20%;
+    border-bottom: 5px solid #fff; /* Light teal border */
+    
+  }
+
+  .star {
+    color: #f9bc60; /* Star color */
+    margin: 0 10px; /* Space around the star */
+  }

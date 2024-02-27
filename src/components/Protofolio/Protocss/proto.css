@@ -1,0 +1,29 @@
+.protofolio{
+    background-color:#fff; /* Dark teal background */
+    height: 100vh;
+}
+
+
+.layer{
+    background-color: rgba(26, 188, 156, 0.8);
+    color: #fff;
+
+    opacity: 0;
+
+    transition: all 1s;
+
+
+}
+
+
+.layer:hover{
+
+    opacity: 1;
+
+}
+
+
+.proto{
+    color: #2c3e50;
+    
+}
